@@ -2,8 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<stdio.h>
-typedef enum dir{
-	UP,
+typedef enum dir{ UP,
 	LEFT,
 	DIAGONAL
 } __attribute__((__packed__)) Direction;

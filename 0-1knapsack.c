@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<sys/param.h>
-int main(int argc,char** argv){
+int main(int argc,char** argv){//knapsack_size weights profits
 	unsigned int space=atoi(argv[1])+1;
 	unsigned int N=1,l;
 	l=strlen(argv[2]);
